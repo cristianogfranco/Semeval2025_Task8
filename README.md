@@ -28,8 +28,12 @@ Arquivo com funções utilitárias.
 
 # Exemplo de uso das classes 
 
+```python
+
 #Carrega o database
+
 dataset_name = '066_IBM_HR'
+
 execution_mode= DataMode.SAMPLE
 databenchDB = DatabenchDB(pathDatasets, pathDatabases, dataset_name, execution_mode)
 
