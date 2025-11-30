@@ -11,12 +11,11 @@ Notebook com script para o processamento das avaliações e geração dos result
 ### DatabenchDB.py
 
 Classe que representa uma das bases de dados do Databench. Recebe o caminho dos arquivos no formato parquet, o nome da base e o parâmetro indicando a versão (amostra ou
-completa) da base de dados. Essa classe gerencia a conexão com o banco SQLite e a execução das consultas SQL.
+completa) da base de dados. Essa classe cria uma base de dados  SQLITE com base no arquivo parquet, gerencia a conexão com o banco e a execução das consultas SQL.
 
 ## MultiAgentsText2SQL.py
 
-Classe que recebe como parâmetros o LLM, a instância do banco de dados DatabenchDB e o tipo de estrutura multiagentes
-298 (com ou sem raciocínio).
+Classe que recebe como parâmetros o LLM, a instância do banco de dados DatabenchDB e o tipo de estrutura multiagentes (com ou sem raciocínio). Fica responsável por encapsular a estrutura dos agentes e realizar o processamento das questões e obtenção das respostas. 
 
 ## MultiAgentsText2SQL_Tester.py
 
