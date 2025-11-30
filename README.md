@@ -6,7 +6,7 @@ Tarefa 8 da edição de 2025 do SemEval (Question Answering over Tabular Data)
 
 ### Evaluation.ipynb
 
-Notebook com script para o processamento das avaliações e geração dos resultados. 
+Notebook com script para o processamento das avaliações e geração dos resultados para as 15 bases de dados (conjunto de testes do DataBench). 
 
 ### DatabenchDB.py
 
@@ -26,7 +26,7 @@ Classe que apoia na apuração dos resultados, permitindo a execução em batch 
 Arquivo com funções utilitárias. 
 
 
-# Exemplo de uso das classes 
+## Exemplo de uso das classes 
 
 ```python
 
